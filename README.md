@@ -12,16 +12,16 @@ All four programs are written in Java and placed in separate files as instructed
 ## How to Run
 
 ### Compile
-javac Problem1.java
-javac Problem2.java
-javac Problem3.java
-javac Problem4.java
+- javac Problem1.java
+- javac Problem2.java
+- javac Problem3.java
+- javac Problem4.java
 
 ## Run
-java Problem1
-java Problem2
-java Problem3
-java Problem4
+- java Problem1
+- java Problem2
+- java Problem3
+- java Problem4
 
 ## Tech Used
 - Java (OpenJDK 25)
