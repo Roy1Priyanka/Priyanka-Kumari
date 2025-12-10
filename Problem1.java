@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Calculator {
     public double calculate(double a, double b, String op) {
@@ -20,9 +20,11 @@ public class Problem1 {
 
         double a = sc.nextDouble();
         double b = sc.nextDouble();
-        String op = sc.next();
+        String op = sc.next().toLowerCase();
 
         Calculator calc = new Calculator();
         System.out.println(calc.calculate(a, b, op));
+
+        sc.close();
     }
 }
